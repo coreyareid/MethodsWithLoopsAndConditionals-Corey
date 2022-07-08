@@ -1,7 +1,6 @@
 ﻿using MethodsWithLoopsAndConditionals_Corey;
-
 // Exercise 1
-
+/*
 Methods.writeForLoops();
 
 //--------------------------------------------------
@@ -42,3 +41,7 @@ Methods.IsInRange();
 // Method that shows multiplication table when a number is put in by the user.
 
 Methods.Table();
+
+// Method to enter password (Challanging myself).
+*/
+Methods.InputPassword();

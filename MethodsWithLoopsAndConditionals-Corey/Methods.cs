@@ -210,7 +210,7 @@ namespace MethodsWithLoopsAndConditionals_Corey
             bool inRange = true;
             Console.WriteLine("Enter a number to check if it\'s in range.");
 
-            do
+            while(inRange)
             {
                 int theirNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -218,19 +218,20 @@ namespace MethodsWithLoopsAndConditionals_Corey
                 {
                     Console.WriteLine($" The number you chose is {theirNumber} and IS in range.");
                     inRange = false;
+                    break;
                 }
                 else
                 {
                     Console.WriteLine($" The number you chose is {theirNumber} and is NOT in range, try again.");
                 }
             }
-            while (inRange);
+            
         }
 
 
         // Method that shows multiplication table when a number is put in by the user.
 
-       public static void Table()
+        public static void Table()
         {
             int x, y;
             Console.WriteLine("Input a number to see its multiplication table.");
@@ -242,6 +243,33 @@ namespace MethodsWithLoopsAndConditionals_Corey
             }
 
         }
+        public static void InputPassword()
+        {
+            string userName = "Corey Reid";
+            string password = "Coreyislearning";
+            bool correct = false;
+            string userInput = "";
+
+            Console.WriteLine("Please enter your password");
+            
+            while (userInput != password)
+            {
+                 userInput = Console.ReadLine();
+
+                if (userInput == password)
+                {
+                    Console.WriteLine($"Welcome {userName}");
+                    correct = true;
+                    break;
+                } else
+                {
+                    Console.WriteLine("The password is not correct. Try again.");
+                }
+
+            }
+
+        }
+        
     }
 }
 
