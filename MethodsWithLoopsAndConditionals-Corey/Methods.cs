@@ -8,105 +8,90 @@ namespace MethodsWithLoopsAndConditionals_Corey
         public static void WriteForLoops()
         {
             // 1st time
-
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"{i}");
             }
 
             // 2nd time
-
             for (int i = 5; i > 0; i--)
             {
                 Console.WriteLine($"{i}");
             }
 
             // 3rd time
-
             for (int i = 100; i > 0; i--)
             {
                 Console.WriteLine($"{i}");
             }
 
             //4th time
-
             for (int g = 1; g < 10; g++)
             {
                 Console.WriteLine($"{g}");
             }
 
             // 5th time
-
             for (int x = 0; x < 100; x++)
             {
                 Console.WriteLine($"{x}");
             }
 
             // 6th time
-
             for (int x = 100; x > 0; x--)
             {
                 Console.WriteLine($"{x}");
             }
 
             // 7th time
-
             for (int num = 5; num < 25; num++)
             {
                 Console.WriteLine($"{num}");
             }
 
             // 8th time
-
             for (int corey = 30; corey < 70; corey++)
             {
                 Console.WriteLine($"{corey}");
             }
 
             // 9th time
-
             for (int subtract = 50; subtract > 0; subtract--)
             {
                 Console.WriteLine($"{subtract}");
             }
 
             // 10 time
-
             for (int add = 0; add < 50; add++)
             {
                 Console.WriteLine($"{add}");
             }
 
             // 11th time
-
             for (int satan = 10; satan < 20; satan++)
             {
                 Console.WriteLine($"{satan}");
             }
 
             // 12th time
-
             for (int y = 20; y > 10; y--)
             {
                 Console.WriteLine($"{y}");
             }
 
             // 13th time
-
             for (int dog = 7; dog < 30; dog++)
             {
                 Console.WriteLine($"{dog}");
             }
 
             // 14th time
-
             for (int gotTheHangOfThis = 0; gotTheHangOfThis < 5; gotTheHangOfThis++)
             {
                 Console.WriteLine($"{gotTheHangOfThis}");
             }
 
             // 15th and final time
-
             for (int finished = 10; finished > 0; finished--)
             {
                 Console.WriteLine($"{finished}, and I\'m finally finished");
@@ -118,7 +103,6 @@ namespace MethodsWithLoopsAndConditionals_Corey
         //LukeWarm Section:
 
         // Method that counts from 1000 to -1000.
-
         public static void CountFromNegative()
         {
             for (int startingNum = 1000; startingNum > -1000; startingNum--)
@@ -128,7 +112,6 @@ namespace MethodsWithLoopsAndConditionals_Corey
         }
       
        // Method that counts to 1000 by increments of 3.
-
        public static void AddByThree()
         {
             for (int num = 3; num < 1000; num += 3)
@@ -154,7 +137,6 @@ namespace MethodsWithLoopsAndConditionals_Corey
         }
 
         // Method that checks if a number is even or odd.
-
        public static void EvenOrOdd(int number)
         {
             if (number % 2 == 0)
@@ -168,7 +150,6 @@ namespace MethodsWithLoopsAndConditionals_Corey
         }
 
         // Method that checks if a number is negative or positive
-
        public static bool NegPos(int num)
         {
             if (num < 0)
@@ -184,7 +165,6 @@ namespace MethodsWithLoopsAndConditionals_Corey
         }
 
         //Method that is used to check if the user is of age to vote.
-
         public static void IsOfAge()
         {
             Console.WriteLine("Enter you age to verify eligibilty to vote.");
@@ -202,9 +182,7 @@ namespace MethodsWithLoopsAndConditionals_Corey
 
 
         //Heatin Up Section:
-
         //Method to check if user input is in range of -10 to 10.
-
        public static void IsInRange()
         {
             bool inRange = true;
@@ -230,7 +208,6 @@ namespace MethodsWithLoopsAndConditionals_Corey
 
 
         // Method that shows multiplication table when a number is put in by the user.
-
         public static void Table()
         {
             int x, y;
@@ -243,6 +220,9 @@ namespace MethodsWithLoopsAndConditionals_Corey
             }
 
         }
+
+        //Challange myself section.
+        // Method to enter password.
 
         public static void InputPassword()
         {
@@ -271,6 +251,7 @@ namespace MethodsWithLoopsAndConditionals_Corey
 
         }
 
+        //Method to Guess a large number
         public static void LargeNumbersGuess()
         {
             // var x = new Random();
@@ -298,10 +279,6 @@ namespace MethodsWithLoopsAndConditionals_Corey
                 else if (userInput < myNumber)
                 {
                     Console.WriteLine("Too low, try again!");
-                }
-                else if (userInput >= 700 && userInput <= 800)
-                {
-                    Console.WriteLine("You\'re getting warm but try again.");
                 }
             }
 
