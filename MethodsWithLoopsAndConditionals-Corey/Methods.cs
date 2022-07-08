@@ -3,12 +3,123 @@ namespace MethodsWithLoopsAndConditionals_Corey
 {
    internal  class Methods
     {
+
+        // Exercise 1
+        public static void writeForLoops()
+        {
+            // 1st time
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            // 2nd time
+
+            for (int i = 5; i > 0; i--)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            // 3rd time
+
+            for (int i = 100; i > 0; i--)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            //4th time
+
+            for (int g = 1; g < 10; g++)
+            {
+                Console.WriteLine($"{g}");
+            }
+
+            // 5th time
+
+            for (int x = 0; x < 100; x++)
+            {
+                Console.WriteLine($"{x}");
+            }
+
+            // 6th time
+
+            for (int x = 100; x > 0; x--)
+            {
+                Console.WriteLine($"{x}");
+            }
+
+            // 7th time
+
+            for (int num = 5; num < 25; num++)
+            {
+                Console.WriteLine($"{num}");
+            }
+
+            // 8th time
+
+            for (int corey = 30; corey < 70; corey++)
+            {
+                Console.WriteLine($"{corey}");
+            }
+
+            // 9th time
+
+            for (int subtract = 50; subtract > 0; subtract--)
+            {
+                Console.WriteLine($"{subtract}");
+            }
+
+            // 10 time
+
+            for (int add = 0; add < 50; add++)
+            {
+                Console.WriteLine($"{add}");
+            }
+
+            // 11th time
+
+            for (int satan = 10; satan < 20; satan++)
+            {
+                Console.WriteLine($"{satan}");
+            }
+
+            // 12th time
+
+            for (int y = 20; y > 10; y--)
+            {
+                Console.WriteLine($"{y}");
+            }
+
+            // 13th time
+
+            for (int dog = 7; dog < 30; dog++)
+            {
+                Console.WriteLine($"{dog}");
+            }
+
+            // 14th time
+
+            for (int gotTheHangOfThis = 0; gotTheHangOfThis < 5; gotTheHangOfThis++)
+            {
+                Console.WriteLine($"{gotTheHangOfThis}");
+            }
+
+            // 15th and final time
+
+            for (int finished = 10; finished > 0; finished--)
+            {
+                Console.WriteLine($"{finished}, and I\'m finally finished");
+            }
+        }
+
+
         // Exercise 3
         //LukeWarm Section:
 
         // Method that counts from 1000 to -1000.
 
-       public static void CountFromNegative()
+        public static void CountFromNegative()
         {
             for (int startingNum = 1000; startingNum > -1000; startingNum--)
             {

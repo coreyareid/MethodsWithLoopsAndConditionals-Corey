@@ -1,4 +1,12 @@
 ﻿using MethodsWithLoopsAndConditionals_Corey;
+
+// Exercise 1
+
+Methods.writeForLoops();
+
+//--------------------------------------------------
+
+
 // Exercise 3
 
 //LukeWarm Section:
