@@ -1,7 +1,7 @@
 ﻿using MethodsWithLoopsAndConditionals_Corey;
 // Exercise 1
 /*
-Methods.writeForLoops();
+Methods.WriteForLoops();
 
 //--------------------------------------------------
 
@@ -43,5 +43,9 @@ Methods.IsInRange();
 Methods.Table();
 
 // Method to enter password (Challanging myself).
-*/
+
 Methods.InputPassword();
+*/
+//Method to Guess a large number
+
+Methods.LargeNumbersGuess();

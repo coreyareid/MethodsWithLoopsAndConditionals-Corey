@@ -5,7 +5,7 @@ namespace MethodsWithLoopsAndConditionals_Corey
     {
 
         // Exercise 1
-        public static void writeForLoops()
+        public static void WriteForLoops()
         {
             // 1st time
 
@@ -243,6 +243,7 @@ namespace MethodsWithLoopsAndConditionals_Corey
             }
 
         }
+
         public static void InputPassword()
         {
             string userName = "Corey Reid";
@@ -266,6 +267,42 @@ namespace MethodsWithLoopsAndConditionals_Corey
                     Console.WriteLine("The password is not correct. Try again.");
                 }
 
+            }
+
+        }
+
+        public static void LargeNumbersGuess()
+        {
+            // var x = new Random();
+            // var myNumber = x.Next(1, 1000);
+            int myNumber = 777;
+          
+            bool numberChosen = false;
+            int userInput = 0;
+            Console.WriteLine("Guess what my number is from 1 to 1000");
+
+            while (userInput != myNumber)
+            {
+                userInput = Convert.ToInt32(Console.ReadLine());
+
+                if (userInput == myNumber)
+                {
+                    Console.WriteLine("You guessed my number correctly!");
+                    numberChosen = true;
+                    break;
+                }
+                else if (userInput > myNumber)
+                {
+                    Console.WriteLine("Too high, try again!");
+                }
+                else if (userInput < myNumber)
+                {
+                    Console.WriteLine("Too low, try again!");
+                }
+                else if (userInput >= 700 && userInput <= 800)
+                {
+                    Console.WriteLine("You\'re getting warm but try again.");
+                }
             }
 
         }
